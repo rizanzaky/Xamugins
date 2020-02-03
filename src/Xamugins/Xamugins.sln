@@ -1,9 +1,31 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Xamugin.Shared", "Xamugin.Shared\Xamugin.Shared.shproj", "{24766DB8-3D27-429D-835A-77F2A69BD084}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamugin.iOS", "Xamugin.iOS\Xamugin.iOS.csproj", "{B5D824B8-B9D7-471E-9D01-35EFDB58B0EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamugin.Android", "Xamugin.Android\Xamugin.Android.csproj", "{13877F3B-A764-45B8-A901-98DDA1BA3BB3}"
+EndProject
+Project("{5DD5E4FA-CB73-4610-85AB-557B54E96AA9}") = "Xamugin.NuGet", "Xamugin.NuGet\Xamugin.NuGet.nuproj", "{8554AD18-2FC0-45D2-8F5C-9B39DEE313D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5D824B8-B9D7-471E-9D01-35EFDB58B0EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D824B8-B9D7-471E-9D01-35EFDB58B0EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D824B8-B9D7-471E-9D01-35EFDB58B0EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D824B8-B9D7-471E-9D01-35EFDB58B0EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13877F3B-A764-45B8-A901-98DDA1BA3BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13877F3B-A764-45B8-A901-98DDA1BA3BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13877F3B-A764-45B8-A901-98DDA1BA3BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13877F3B-A764-45B8-A901-98DDA1BA3BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8554AD18-2FC0-45D2-8F5C-9B39DEE313D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8554AD18-2FC0-45D2-8F5C-9B39DEE313D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8554AD18-2FC0-45D2-8F5C-9B39DEE313D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8554AD18-2FC0-45D2-8F5C-9B39DEE313D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
