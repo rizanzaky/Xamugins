@@ -1,0 +1,33 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/SharedDrive/rizan/My Work/Libraries/Xamugins/src/Xamugins/XamuMulti/Xamu/Xamu.csproj": {}
+  },
+  "projects": {
+    "/Volumes/SharedDrive/rizan/My Work/Libraries/Xamugins/src/Xamugins/XamuMulti/Xamu/Xamu.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/SharedDrive/rizan/My Work/Libraries/Xamugins/src/Xamugins/XamuMulti/Xamu/Xamu.csproj",
+        "projectName": "Xamu",
+        "projectPath": "/Volumes/SharedDrive/rizan/My Work/Libraries/Xamugins/src/Xamugins/XamuMulti/Xamu/Xamu.csproj",
+        "projectJsonPath": "/Volumes/SharedDrive/rizan/My Work/Libraries/Xamugins/src/Xamugins/XamuMulti/Xamu/project.json",
+        "packagesPath": "/Volumes/SharedDrive/rizan/.nuget/packages/",
+        "projectStyle": "ProjectJson",
+        "configFilePaths": [
+          "/Volumes/SharedDrive/rizan/.config/NuGet/NuGet.Config"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        }
+      },
+      "dependencies": {
+        "Microsoft.NETCore.Portable.Compatibility": "[1.0.1, )",
+        "NETStandard.Library": "[1.6.0, )",
+        "NuGet.Build.Packaging": "[0.2.5-dev.8, )"
+      },
+      "frameworks": {
+        "netstandard1.5": {}
+      }
+    }
+  }
+}
