@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamugin.Droid", "Xamugin.Dr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamugin.Core", "Xamugin.Core\Xamugin.Core.csproj", "{BD68ADAC-0060-4B06-A0E7-9F7C0980F8CE}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Xamugin.Shared", "Xamugin.Shared\Xamugin.Shared.shproj", "{2FCFE17A-E5CE-4CD6-9F54-F07ABD55087A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
