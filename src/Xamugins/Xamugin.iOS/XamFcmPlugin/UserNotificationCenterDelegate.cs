@@ -4,7 +4,7 @@ using Xamugin.Core.XamFcmPlugin;
 
 // using Visit.Mobile.XamFcmPlugin;
 
-namespace Visit.Mobile.iOS.XamFcmPlugin
+namespace Xamugin.iOS.XamFcmPlugin
 {
     public class UserNotificationCenterDelegate : UNUserNotificationCenterDelegate
     {

@@ -1,4 +1,4 @@
-namespace Visit.Mobile.iOS.XamFcmPlugin
+namespace Xamugin.iOS.XamFcmPlugin
 {
     public class XamFcmPlugin
     {

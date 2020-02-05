@@ -4,13 +4,12 @@ using Firebase.InstanceID;
 using Foundation;
 using UIKit;
 using UserNotifications;
-using Visit.Mobile.iOS.XamFcmPlugin;
-// using Visit.Mobile.XamFcmPlugin;
 using Xamarin.Forms;
 using Xamugin.Core.XamFcmPlugin;
+using Xamugin.iOS.XamFcmPlugin; // using Visit.Mobile.XamFcmPlugin;
 
 [assembly: Dependency(typeof(XamFcmPluginPlatform))]
-namespace Visit.Mobile.iOS.XamFcmPlugin
+namespace Xamugin.iOS.XamFcmPlugin
 {
     [Register(nameof(XamFcmPluginPlatform))]
     public class XamFcmPluginPlatform : IXamFcmPluginPlatform
