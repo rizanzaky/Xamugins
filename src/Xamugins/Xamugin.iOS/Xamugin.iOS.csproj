@@ -63,5 +63,11 @@
       <Version>4.4.0.991537</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Xamugin.Core\Xamugin.Core.csproj">
+      <Project>{49a3ad02-338e-4e7b-ae0b-858ce72996ea}</Project>
+      <Name>Xamugin.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

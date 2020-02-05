@@ -5,8 +5,9 @@ using Foundation;
 using UIKit;
 using UserNotifications;
 using Visit.Mobile.iOS.XamFcmPlugin;
-using Visit.Mobile.XamFcmPlugin;
+// using Visit.Mobile.XamFcmPlugin;
 using Xamarin.Forms;
+using Xamugin.Core.XamFcmPlugin;
 
 [assembly: Dependency(typeof(XamFcmPluginPlatform))]
 namespace Visit.Mobile.iOS.XamFcmPlugin
@@ -27,7 +28,8 @@ namespace Visit.Mobile.iOS.XamFcmPlugin
         public void Initialize()
         {
             UIApplication.SharedApplication.RegisterForRemoteNotifications();
-            Mobile.XamFcmPlugin.XamFcmPlugin.FcmToken = Messaging.SharedInstance.FcmToken;
+            // Mobile.XamFcmPlugin.XamFcmPlugin.FcmToken = Messaging.SharedInstance.FcmToken;
+            Xamugin.Core.XamFcmPlugin.XamFcmPlugin.FcmToken = Messaging.SharedInstance.FcmToken;
             m_tokenObserver = Messaging.Notifications.ObserveRegistrationTokenRefreshed(OnFcmTokenRefreshed);
         }
 
@@ -51,7 +53,8 @@ namespace Visit.Mobile.iOS.XamFcmPlugin
 
         private static void OnFcmTokenRefreshed(object sender, NSNotificationEventArgs e)
         {
-            Mobile.XamFcmPlugin.XamFcmPlugin.FcmToken = Messaging.SharedInstance.FcmToken;
+            // Mobile.XamFcmPlugin.XamFcmPlugin.FcmToken = Messaging.SharedInstance.FcmToken;
+            Xamugin.Core.XamFcmPlugin.XamFcmPlugin.FcmToken = Messaging.SharedInstance.FcmToken;
         }
     }
 }

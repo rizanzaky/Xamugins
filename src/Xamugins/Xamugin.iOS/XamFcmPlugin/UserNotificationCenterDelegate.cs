@@ -1,6 +1,8 @@
 using System;
 using UserNotifications;
-using Visit.Mobile.XamFcmPlugin;
+using Xamugin.Core.XamFcmPlugin;
+
+// using Visit.Mobile.XamFcmPlugin;
 
 namespace Visit.Mobile.iOS.XamFcmPlugin
 {
@@ -13,7 +15,8 @@ namespace Visit.Mobile.iOS.XamFcmPlugin
         {
             var notificationInfo = notification.Request.Content.UserInfo;
             var notificationInfoModal = new NotificationInfoModal();
-            var isContinue = await Mobile.XamFcmPlugin.XamFcmPlugin.Delegate?.OnNotificationReceivedAsync(notificationInfoModal);
+            // var isContinue = await Mobile.XamFcmPlugin.XamFcmPlugin.Delegate?.OnNotificationReceivedAsync(notificationInfoModal);
+            var isContinue = await Xamugin.Core.XamFcmPlugin.XamFcmPlugin.Delegate?.OnNotificationReceivedAsync(notificationInfoModal);
             completionHandler(isContinue ? UNNotificationPresentationOptions.Alert : UNNotificationPresentationOptions.None);
         }
 
@@ -22,7 +25,8 @@ namespace Visit.Mobile.iOS.XamFcmPlugin
             UNNotificationResponse response,
             Action completionHandler)
         {
-            Mobile.XamFcmPlugin.XamFcmPlugin.Delegate?.OnNotificationAction();
+            // Mobile.XamFcmPlugin.XamFcmPlugin.Delegate?.OnNotificationAction();
+            Xamugin.Core.XamFcmPlugin.XamFcmPlugin.Delegate?.OnNotificationAction();
         }
     }
 }
