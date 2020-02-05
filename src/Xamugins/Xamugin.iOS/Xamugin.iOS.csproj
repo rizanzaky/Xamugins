@@ -17,6 +17,7 @@
     <PackageId>Xamugin.iOS</PackageId>
     <PackageVersion>1.0.0.0</PackageVersion>
     <Authors>Rizan</Authors>
+    <Description>Xamarin Plugin for iOS</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -44,7 +45,6 @@
     <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XamFcmPlugin\UserNotificationCenterDelegate.cs" />
     <Compile Include="XamFcmPlugin\XamFcmPlugin.cs" />

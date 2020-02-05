@@ -6,6 +6,7 @@
     <PackageId>Xamugin.Core</PackageId>
     <PackageVersion>1.0.0.0</PackageVersion>
     <Authors>Rizan</Authors>
+    <Description>Xamarin Plugin for Core</Description>
   </PropertyGroup>
 
   <ItemGroup>
