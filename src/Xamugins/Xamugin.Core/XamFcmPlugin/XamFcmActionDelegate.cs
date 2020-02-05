@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace Visit.Mobile.XamFcmPlugin
+namespace Xamugin.Core.XamFcmPlugin
 {
     public abstract class XamFcmActionDelegate
     {

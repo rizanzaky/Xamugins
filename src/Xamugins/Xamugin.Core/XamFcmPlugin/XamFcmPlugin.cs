@@ -1,6 +1,6 @@
 using Xamarin.Forms;
 
-namespace Visit.Mobile.XamFcmPlugin
+namespace Xamugin.Core.XamFcmPlugin
 {
     public static class XamFcmPlugin
     {

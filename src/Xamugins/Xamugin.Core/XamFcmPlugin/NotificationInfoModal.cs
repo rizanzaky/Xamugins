@@ -1,4 +1,4 @@
-namespace Visit.Mobile.XamFcmPlugin
+namespace Xamugin.Core.XamFcmPlugin
 {
     public class NotificationInfoModal
     {
